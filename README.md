@@ -15,6 +15,6 @@
 - ca (int64)
 - thal (int64)
 
-Преобразования признаков: StandardScaler
+Преобразования признаков: StandardScaler.
 
-Модель: LogisticRegression
+Модель: LogisticRegression.

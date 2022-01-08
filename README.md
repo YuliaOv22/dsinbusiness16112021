@@ -18,3 +18,11 @@
 Преобразования признаков: StandardScaler.
 
 Модель: LogisticRegression.
+
+Для запуска необходимо клонировать репозиторий и создать образ в Docker:
+$ git clone https://github.com/YuliaOv22/dsinbusiness16112021/Course-project.git
+$ cd course_project
+$ docker build -t course_project .
+Запустить контейнер
+
+$ docker run -d -p 8180:8180 -p 8181:8181 -v <your_local_path_to_pretrained_models>:/api/api/models course_project

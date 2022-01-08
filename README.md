@@ -28,3 +28,5 @@
 Запустить контейнер
 
     $ docker run -d -p 8180:8180 -p 8181:8181 -v <your_local_path_to_pretrained_models>:/api/api/models course_project
+
+Сделать прогноз через файл HW9_CourseProject_Step_3.ipynb либо по адресу localhost:8181

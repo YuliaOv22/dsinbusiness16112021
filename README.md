@@ -23,7 +23,7 @@
 
     $ git clone https://github.com/YuliaOv22/dsinbusiness16112021.git -b Course-project
     $ cd dsinbusiness16112021
-    $ docker build -t dsinbusiness16112021 .
+    $ sudo docker build -t dsinbusiness16112021 .
 
 Запустить контейнер
 

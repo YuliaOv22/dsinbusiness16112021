@@ -22,8 +22,8 @@
 Для запуска необходимо клонировать репозиторий и создать образ в Docker:
 
     $ git clone https://github.com/YuliaOv22/dsinbusiness16112021.git -b Course-project
-    $ cd course_project
-    $ docker build -t course_project .
+    $ cd dsinbusiness16112021
+    $ docker build -t dsinbusiness16112021 .
 
 Запустить контейнер
 
